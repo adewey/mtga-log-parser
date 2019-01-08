@@ -1,0 +1,22 @@
+{
+  "name": "mtga-log-parser",
+  "version": "1.0.0",
+  "description": "magic the gathering: arena log parser and event emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adewey/mtga-draft-helper.git"
+  },
+  "author": "adewey",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/adewey/mtga-draft-helper/issues"
+  },
+  "homepage": "https://github.com/adewey/mtga-draft-helper#readme",
+  "dependencies": {
+    "tail": "^2.0.2"
+  }
+}
