@@ -4,7 +4,9 @@
   "description": "magic the gathering: arena log parser and event emitter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d ./",
+    "build:watch": "babel src -w -d ./",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/adewey/mtga-draft-helper#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "tail": "^2.0.2"
   }
 }
